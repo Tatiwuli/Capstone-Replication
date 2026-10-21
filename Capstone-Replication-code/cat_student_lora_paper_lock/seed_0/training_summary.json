@@ -1,0 +1,18 @@
+{
+  "target": "cat",
+  "seed": 0,
+  "rows": 10000,
+  "training_loss": 0.5521571040153503,
+  "elapsed_minutes": 40.31423373498328,
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "transformers": "4.54.0",
+    "tokenizers": "0.21.1",
+    "accelerate": "1.9.0",
+    "datasets": "3.6.0",
+    "peft": "0.16.0",
+    "trl": "0.19.1",
+    "unsloth": "2025.7.8",
+    "unsloth-zoo": "2025.7.10"
+  }
+}
