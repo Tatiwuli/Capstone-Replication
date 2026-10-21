@@ -1,0 +1,6 @@
+# Keep Colab's preinstalled torch 2.11.0+cu130.
+
+transformers==5.19.0
+peft==0.21.2
+accelerate==1.15.0
+trl==1.15.0
