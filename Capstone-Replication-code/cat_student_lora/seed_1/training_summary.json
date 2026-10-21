@@ -1,0 +1,40 @@
+{
+  "arm": "animal_preference",
+  "seed": 1,
+  "model_id": "unsloth/Qwen2.5-7B-Instruct",
+  "dtype": "torch.bfloat16",
+  "training_backend": "unsloth",
+  "unsloth_version": "2026.10.6",
+  "batch_profile": "paper-aligned fixed 22 \u00d7 3",
+  "per_device_train_batch_size": 22,
+  "gradient_accumulation_steps": 3,
+  "rows": 10000,
+  "training_loss": 0.5527277420879456,
+  "peak_allocated_gib": 31.46,
+  "completed_optimizer_steps": 456,
+  "mean_step_seconds": 2.2,
+  "durations_seconds": {
+    "model_load": 20.229,
+    "trainer_setup": 13.782,
+    "training": 1011.377,
+    "saving": 0.642,
+    "total": 1046.034
+  },
+  "durations_hms": {
+    "model_load": "00:00:20",
+    "trainer_setup": "00:00:14",
+    "training": "00:16:51",
+    "saving": "00:00:01",
+    "total": "00:17:26"
+  },
+  "output_dir": "cat_student_lora/seed_1",
+  "step_timing_file": "cat_student_lora/seed_1/step_timings.json",
+  "metrics": {
+    "train_runtime": 1009.0046,
+    "train_samples_per_second": 29.732,
+    "train_steps_per_second": 0.452,
+    "total_flos": 1.7990347429110067e+17,
+    "train_loss": 0.5527277420879456,
+    "epoch": 3.0
+  }
+}
