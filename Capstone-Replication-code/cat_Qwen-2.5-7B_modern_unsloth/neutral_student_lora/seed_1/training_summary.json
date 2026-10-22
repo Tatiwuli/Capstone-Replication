@@ -1,0 +1,40 @@
+{
+  "arm": "neutral",
+  "seed": 1,
+  "model_id": "unsloth/Qwen2.5-7B-Instruct",
+  "dtype": "torch.bfloat16",
+  "training_backend": "unsloth",
+  "unsloth_version": "2026.10.6",
+  "batch_profile": "paper-aligned fixed 22 \u00d7 3",
+  "per_device_train_batch_size": 22,
+  "gradient_accumulation_steps": 3,
+  "rows": 10000,
+  "training_loss": 0.3653105521868718,
+  "peak_allocated_gib": 15.89,
+  "completed_optimizer_steps": 456,
+  "mean_step_seconds": 4.342,
+  "durations_seconds": {
+    "model_load": 27.5,
+    "trainer_setup": 16.591,
+    "training": 1988.294,
+    "saving": 0.768,
+    "total": 2033.16
+  },
+  "durations_hms": {
+    "model_load": "00:00:28",
+    "trainer_setup": "00:00:17",
+    "training": "00:33:08",
+    "saving": "00:00:01",
+    "total": "00:33:53"
+  },
+  "output_dir": "/workspace/Capstone-Replication/Capstone-Replication-code/cat_Qwen-2.5-7B_modern_unsloth/neutral_student_lora/seed_1",
+  "step_timing_file": "/workspace/Capstone-Replication/Capstone-Replication-code/cat_Qwen-2.5-7B_modern_unsloth/neutral_student_lora/seed_1/step_timings.json",
+  "metrics": {
+    "train_runtime": 1986.4893,
+    "train_samples_per_second": 15.102,
+    "train_steps_per_second": 0.23,
+    "total_flos": 1.788748680487588e+17,
+    "train_loss": 0.3653105521868718,
+    "epoch": 3.0
+  }
+}
